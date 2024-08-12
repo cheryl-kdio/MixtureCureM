@@ -27,11 +27,11 @@ save_data <- list(
 )
 
 # Save to an RDS file
-saveRDS(save_data, file = "scenario1.rds")
+saveRDS(save_data, file = "scenario0.rds")
 
 print("------------------------------------Scenario 1-bis------------------------------------\n")
 # parameters
-lambdas <- c(-3.36,0.06)
+lambdas <- c(0.28,0.76)
 betas <- c(1.05,-0.77)
 
 results <- run_simulations(nb_simulations, n, betas, lambdas, gamma, end_accrual_after_period, end_study_after_period, ts,linkfunction)
@@ -45,7 +45,7 @@ save_data <- list(
 )
 
 # Save to an RDS file
-saveRDS(save_data, file = "scenario1.rds")
+saveRDS(save_data, file = "scenario1bis.rds")
 
 
 # print("------------------------------------Scenario 1------------------------------------\n")
