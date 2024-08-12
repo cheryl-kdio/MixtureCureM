@@ -11,7 +11,7 @@ end_study_after_period <- 84
 ts <- 20000
 linkfunction <- "logit"
 
-print("------------------------------------Scenario 1------------------------------------\n")
+print("------------------------------------Scenario 0------------------------------------\n")
 # parameters
 lambdas <- c(-3.36,0)
 betas <- c(1.05,0)
@@ -29,7 +29,7 @@ save_data <- list(
 # Save to an RDS file
 saveRDS(save_data, file = "scenario1.rds")
 
-print("------------------------------------Scenario 1------------------------------------\n")
+print("------------------------------------Scenario 1-bis------------------------------------\n")
 # parameters
 lambdas <- c(-3.36,0.06)
 betas <- c(1.05,-0.77)
